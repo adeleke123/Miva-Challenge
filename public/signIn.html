@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DN Auth</title>
+    <title>Express App</title>
   </head>
   <body>
     <div class="container">
@@ -39,7 +39,7 @@
       let signInSubmitButton = document.querySelector("#sign-in-btn");
       let email = document.getElementById("email");
       let password = document.getElementById("password");
-      const BASE_URL = "http://localhost:1338";
+      const BASE_URL = "http://localhost:8989";
 
       signInSubmitButton.addEventListener("click", async () => {
         let user = {
