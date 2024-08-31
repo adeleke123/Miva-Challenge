@@ -51,7 +51,7 @@ router.post("/signup", async (req, res) => {
     return res
       .status(201)
       .send(
-        `Welcome to Devsnest ${users[email].name}. Thank you for signing up`
+        `Welcome to the challenge ${users[email].name}. Thank you for signing up`
       );
   } catch (err) {
     console.log(err);
@@ -91,7 +91,7 @@ router.post("/signin", async (req, res) => {
 
     return res
       .status(200)
-      .send(`Welcome to Devsnest ${users[email].name}. You are logged in`);
+      .send(`Welcome to the challenge ${users[email].name}. You are logged in`);
   } catch (err) {
     console.log(err);
     return res.status(500).send(`Error: ${err.message}`);

@@ -3,11 +3,11 @@
 const express = require("express");
 const auth = require("./routes/authRoutes");
 const app = express();
-const PORT = 8989;
+const PORT = 8080;
 
 // Middlewares
 app.use(express.json()); //* used for parsing json data
-app.use(express.static("public")); //* used to serve html files from public folder
+app.use(express.static("access")); //* used to serve html files from public folder
 
 // Routes
 app.use("/api/v1", auth);
