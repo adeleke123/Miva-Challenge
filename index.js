@@ -3,7 +3,7 @@
 const express = require("express");
 const auth = require("./routes/authRoutes");
 const app = express();
-const PORT = 1338;
+const PORT = 8989;
 
 // Middlewares
 app.use(express.json()); //* used for parsing json data
