@@ -98,5 +98,3 @@ sudo apt install nodejs npm
 npm install express bcrypt
 node index.js
 ```
-
-Let me know if you need further assistance!
