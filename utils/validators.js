@@ -18,10 +18,4 @@ const validatePassword = (password) => {
   return passwordRegex.test(password);
 };
 
-// console.log(
-//   validateName("Naeem Ghadai"),
-//   validateEmail("sm47@gmail.com"),
-//   validatePassword("HelloWorld@6")
-// );
-
 module.exports = { validateName, validateEmail, validatePassword };
